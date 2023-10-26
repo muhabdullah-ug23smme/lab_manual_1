@@ -1,0 +1,72 @@
+Muhammad Abdullah
+ME 15 A
+roll no.454502
+lab manual 1
+
+
+
+
+//task1
+#include <iostream>
+using namespace std;
+//task 1
+int main() {
+   int x1,y1,x2,y2,distance;
+//   prompt the user to enter x and y coordinates of both points
+   cout<<"please enter the x cordinate 1"<<endl;
+   cin>>x1;
+   cout<<"please enter the y cordinate 1"<<endl;
+   cin>>y1;
+   cout<<"please enter the x cordinate 2"<<endl;
+   cin>>x2;
+   cout<<"please enter the y cordinate 2"<<endl;
+   cin>>y2;
+//   calculate distance using formula
+   distance = (x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
+//   display the calculated distance
+   cout<<"distance between two coordinates is "<<distance;
+	return 0;
+}
+
+//task2
+	int main(){
+	int cm,m,km;
+//    ask the user for input
+	cout<<"please enter the value in cm that you want to convert"<<endl;
+	cin>>cm;
+//	convert centimeters to metres and kilometers using formulae
+	m= cm/100;
+	km= m/1000;
+//	display the converted values
+	cout<<"converted value in metre and kilometer is "<<m<<" and "<<km;
+	return 0;	
+}
+
+//task 3
+int main(){
+	int a,b,result;
+//	ask the user to enter values of a and b
+	cout<<"please enter value of a"<<endl;
+	cin>>a;
+	cout<<"please enter value of b"<<endl;
+	cin>>b;
+//	calculate result using given formula
+	result=a*a+ 2*a*b+ b*b;
+//	display result of polynomial
+	cout<<"result of polynomial is "<<result;
+	return 0;
+}
+
+//task 4
+int main(){
+	int C,F;
+//	ask the user to enter temperature to convert
+	cout<<"please enter the temperature in fahrenheit"<<endl;
+	cin>>F;
+//	calculate temperature in celcius using given formula
+	C= (F-32)* 5/9;
+//	display converted temperature
+	cout<<"temperature in celcius is "<<C;
+	return 0;	
+}
+
